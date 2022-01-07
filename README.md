@@ -18,7 +18,7 @@ Install with Composer!
 
 Install manually!
 
-  * Download [ZIP Archive](https://github.com/magefan/module-community/archive/master.zip)
+  * Download
   * Extract files
   * In your Magento 2 root directory create folder app/code/Ali/Rimage
   * Copy files and folders from archive to that folder
