@@ -7,12 +7,13 @@ Magento 2 Resize Category Images
 Install with Composer!
 
 	```
-	composer required ali/magento2-rimage
+	composer require ali/magento2-rimage
 	php bin/magento module:enable Ali_Rimage
 	php bin/magento setup:upgrade
 	php bin/magento setup:di:compile
 	php bin/magento setup:static-content:deploy
 	php bin/magento cache:flush
+ 
 	```
 
 
@@ -21,8 +22,8 @@ Install manually!
   * Download
   * Extract files
   * In your Magento 2 root directory create folder app/code/Ali/Rimage
-  * Copy files and folders from archive to that folder
-  * In command line, using "cd", navigate to your Magento 2 root directory
+  * Copy files and folders from the archive to that folder
+  * In the command line, using "cd", navigate to your Magento 2 root directory
   * Run the commands:
 	```
 	php bin/magento setup:upgrade
@@ -42,7 +43,7 @@ Install manually!
 
 	```
 
-	Put follow code to Resize image:
+	Put following code to Resize the image:
 
 	```PHP
 	$image_path = "/catalog/category/".$_category->getImage();
@@ -51,4 +52,4 @@ Install manually!
 
 
 ## License
-	* Its free
+	* it is free
